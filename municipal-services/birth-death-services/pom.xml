@@ -131,10 +131,9 @@
              <artifactId>maven-compiler-plugin</artifactId>  
            <version>3.8.1</version>  
             <configuration>  
-            <compilerArgs>    
-            <arg>jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>  
-          </compilerArgs>  
-      </configuration>  
+             <source>1.8</source> 
+             <target>1.8</target>
+    </configuration>  
   </plugin>
     </plugins>
 

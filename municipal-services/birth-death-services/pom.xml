@@ -97,11 +97,12 @@
       <name>eGov Public Repository Group</name>
       <url>https://nexus-repo.egovernments.org/nexus/ content/groups/public/</url>
     </repository>
-  </repositories>       <url>http://your.repository.url/path</url>  
+  </repositories>        
 
    <distributionManagement>  
     <repository>  
-        <id>your-repo-id</id>  
+        <id>repo.egovernments.org</id>  
+	<url>eGov ERP Releases Repository</url>     
     </repository>  
         </distributionManagement>
   <build>

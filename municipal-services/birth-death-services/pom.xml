@@ -95,9 +95,15 @@
     <repository>
       <id>repo.egovernments.org.public</id>
       <name>eGov Public Repository Group</name>
-      <url>https://nexus-repo.egovernments.org/nexus/content/groups/public/</url>
+      <url>https://nexus-repo.egovernments.org/nexus/ content/groups/public/</url>
     </repository>
-  </repositories>
+  </repositories>       <url>http://your.repository.url/path</url>  
+
+   <distributionManagement>  
+    <repository>  
+        <id>your-repo-id</id>  
+    </repository>  
+        </distributionManagement>
   <build>
     <sourceDirectory>src/main/java</sourceDirectory>
 
